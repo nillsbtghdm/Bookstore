@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  <main class="hero-section">
+    <div class="container">
+      
+      <div class="section-content">
+        <h2>My Book Store web site designed by Flask</h2>
+        <a href="/newbook" class="btn-primary">New Books</a>
+        <a href="/about" class="btn-secondary">About me</a> 
+        <a href="/bookslist" class="btn-primary">Books List</a>
+        <a href="/findbook.html" class="btn-primary">Find Book</a>
+      </div>
+
+      <div class="section-device">
+        <img src="static/img/cat.jpg" style="position: fixed;right: 10%;top: 50%;transform: translateY(-60%);width: 20%;right: 10%;top: 50%;width: 20%;border: 5px,5px,5px;">
+      </div>
+      
+      <div class="clearfix"></div>
+
+    </div>
+  </main>
+{% endblock %}
